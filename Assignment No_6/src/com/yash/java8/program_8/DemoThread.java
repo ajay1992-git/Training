@@ -18,7 +18,7 @@ public class DemoThread {
 		};
 
 		Thread t = new Thread(thread1);
-		t.setName("kajal");
+		t.setName("ajay");
 		t.start();
 
 		Runnable thread2 = () -> {
